@@ -1,0 +1,50 @@
+*{
+
+    accent-color         : #041B15;
+
+}
+.root{
+    -fx-background-color: accent-color;
+
+}
+.button{
+    -fx-font: 12px "Arial";
+    -fx-padding: 6px;
+    -fx-background-color: #5BC0BE;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(one-pass-box,black, 5, 0.0,3, 0);
+    -fx-background-radius: 9;
+}
+.button:hover{
+    -fx-text-fill: black;
+    -fx-background-color: #BDBDBD;
+}
+.label{
+    -fx-font: 12px "Arial";
+    -fx-text-fill: black;
+}
+
+
+.text-field{
+    -fx-effect: dropshadow(one-pass-box,black, 2, 0.0,3, 0);
+    -fx-background-radius: 4;
+    -fx-text-fill: black;
+
+}
+.table-view{
+    -fx-font-weight: bold;
+
+
+
+}
+
+#C{
+    -fx-background-color: tomato;
+}
+#lb1{
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font:25px "Courier New";
+}
+
